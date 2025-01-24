@@ -1,9 +1,9 @@
-Name: YOUR NAME HERE
+Name: Stevie Halprin
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date   |     Time      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Update |
+|:-------|:-------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Jan 23 | 4:30pm-5:15pm | I spent a long time thinking through the problem set and possible approaches I could take to solve it. I've decided that for my first attempt I'll try to use BFS to get all the possible combinations, and store each combination in a HashMap, using the numbers of each coin as a key and adding a filler boolean as a value. I will use an array of length [# of coins] to represent the number of each coin in a given combination. Using a HashMap will also prevent duplicate entries of the same combination because when you try to add a duplicate entry only the latest entry is kept. |
+| Jan 23 | 5:15pm-5:50pm |                                                                                                                                                                                                                                                                                                                                    I wrote out a first draft of the approach I came up with. I spent a lot of time thinking through and then creating the BFS method, and then I filled in the main method accordingly. I just tried running my code, however I got an index out of bounds error. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
