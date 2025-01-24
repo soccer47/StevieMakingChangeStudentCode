@@ -41,14 +41,14 @@ public class MakingChange {
 
     // Breadth first search to get the number of possible coin combinations to achieve the target value
     public static void BFS (Integer[] numCoins, int currentValue, int newCoin) {
+        // Increment the current value by the value of the new coin
+        currentValue += coinVals[newCoin];
         // If the value of the current coin combination exceeds the target value, return and stop recursing
-        if (currentValue + coinVals[newCoin] > theTarget) {
+        if (currentValue > theTarget) {
             return;
         }
-        // Otherwise increment the current sum by the value of the new coin
         else {
-            currentValue += coinVals[newCoin];
-            // Increment the array keeping track of the number of each coin accordingly
+            // Otherwise increment the array keeping track of the number of each coin accordingly
             // Make sure numCoins[newCoin] isn't null
             if (numCoins[newCoin] == null) {
                 // If numCoins[newCoin] is null, set it equal to 1
