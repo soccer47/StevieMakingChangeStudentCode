@@ -32,7 +32,7 @@ public class MakingChange {
         // Call BFS to get the total number of possible coin combinations
         // Iterate through the array of coins to get every coin as a starting value
         for (int i = 0; i < coinVals.length; i++) {
-            BFS(new Integer[coins.length], 0, coinVals[i]);
+            BFS(new Integer[coins.length], 0, i);
         }
 
         // Return the number of combinations stored in the HashMap
@@ -49,7 +49,14 @@ public class MakingChange {
         else {
             currentValue += coinVals[newCoin];
             // Increment the array keeping track of the number of each coin accordingly
-            numCoins[newCoin] = numCoins[newCoin] + 1;
+            // Make sure numCoins[newCoin] isn't null
+            if (numCoins[newCoin] == null) {
+                // If numCoins[newCoin] is null, set it equal to 1
+                numCoins[newCoin] = 1;
+            }
+            else {
+                numCoins[newCoin] = numCoins[newCoin] + 1;
+            }
         }
 
         // If the target value has been achieved, add the current combo to the HashMap and return
@@ -60,7 +67,7 @@ public class MakingChange {
 
         // Recursively call BFS by trying to add each of the coins to the current combo
         for (int i = 0; i < coinVals.length; i++) {
-            BFS(numCoins, currentValue, coinVals[i]);
+            BFS(numCoins, currentValue, i);
         }
     }
 }
