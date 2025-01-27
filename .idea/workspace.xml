@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf08351e-8001-407c-880c-49b47a0a4156" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MakingChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MakingChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "soccer47"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;soccer47&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ztblick/MakingChangeStudentCode.git",
-    "accountId": "77915a71-c18a-4af3-b4a3-a84beb609def"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ztblick/MakingChangeStudentCode.git&quot;,
+    &quot;accountId&quot;: &quot;77915a71-c18a-4af3-b4a3-a84beb609def&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -93,8 +92,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MakingChangeTest.testCorrectSmall" />
-        <item itemvalue="JUnit.MakingChangeTest.testEfficient" />
         <item itemvalue="JUnit.MakingChangeTest" />
+        <item itemvalue="JUnit.MakingChangeTest.testEfficient" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737685280848</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <option name="closed" value="true" />
+      <created>1737690757497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737690757497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
