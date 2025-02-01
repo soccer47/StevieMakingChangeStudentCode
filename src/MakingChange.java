@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * The class Making Change solves a classic problem:
  * given a set of coins, how many ways can you make change for a target amount?
@@ -29,9 +31,7 @@ public class MakingChange {
 
         // Start by setting the column of numCombos representing the sum of 0 to 1
         // (1 way to make 0 with each combination of coins available)
-        for (int i = 0; i < numCombos[0].length; i++) {
-            numCombos[0][i] = 1;
-        }
+        Arrays.fill(numCombos[0], 1);
         // Set the rest of the array to -1 to show that they haven't been visited
         for (int i = 1; i < numCombos.length; i++) {
             for (int j = 0; j < numCombos[0].length; j++)
